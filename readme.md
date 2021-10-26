@@ -44,6 +44,7 @@
 
 <p>Tic-tac-toe(jogo da velha) criado com intuito de treinar tecnologias de HTML, CSS e Javascript.<br>
 As regras dos jogo são: participam duas pessoas, que jogam alternadamente, preenchendo cada um dos espaços vazios. Cada participante deve usar um símbolo da casa Stark ou Bolton (lobo e X respectivamente). Vence o jogador que conseguir formar primeiro uma linha com três símbolos iguais, seja ela na horizontal, vertical ou diagonal. O campo de texto serve para colocar seu nome ou o nome da casa que desejar.<br>
-A marca Game of Thrones foi usada com intuito de estudo.</p>
+A marca Game of Thrones foi usada com intuito de estudo.<br>
+Projeto criado em monitor com resolução QuadHD (2560 x 1440).</p>
 <hr>
 <p> Criado por Lucas Freitas 🖖🏽| <a href="https://www.linkedin.com/in/lucasfreitas01/"> Faça contato comigo </a> <p> 
