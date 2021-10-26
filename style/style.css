@@ -1,0 +1,295 @@
+@font-face {
+    font-family: Creed;
+    src: url(/font/Creed.ttf);
+}
+
+body{
+ text-align: center;
+ background-color: black;
+ max-width: 100%;
+ height: 98.3vh;
+ background-image: url("../assets/Prancheta2.png");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: Creed
+}
+
+body h2{
+    font-size: 2.6em;
+    padding: 0;
+    margin: 20px;
+    color: #F9F9F8;
+}
+
+body h3{
+    padding: 0;
+    margin: auto;
+}
+
+#got_logo{
+    width: 450px;
+    margin: 10px 0px;
+}
+
+.stage{
+    display: flex;
+    justify-content: center;
+}
+
+.square{
+    width: 110px;
+    height: 110px;
+    background-color: #A09D9B;
+    border: 1px solid #8B0101;
+    border-radius: 10px;
+    margin: 4px 2px;
+}
+
+.square:hover{
+    cursor: pointer;
+}
+
+.o{
+    position: relative;
+}
+
+.o::after{
+    content: url("../assets/stark.png");
+    font-size: 138px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 100px;
+}
+
+.x{
+    position: relative;
+}
+
+.x::after{
+    content: url("../assets/bolton.png");
+    font-size: 175px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 100px;
+}
+
+#house{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+
+#victory1 , #victory2{
+    width: 100px;
+    height: 50px;
+    margin-left: 90px;
+}
+
+#stark , #bolton{
+    width: 250px;
+    height: 75px;
+    padding: 15px 0px;
+    margin: 0px 20px;
+    background-color: #FCF9F6;
+    border-radius: 10px;
+}
+
+#stark_icon{
+    width: 50px;
+}
+
+#bolton_icon{
+    width: 38px;
+}
+
+#icon_flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+#victory1 , #victory2{
+    display: flex;
+    justify-content: center;
+}
+
+#divBtn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button{
+    margin: 0px 80px;
+    background-color: #314659;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-family: Creed;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 657px){
+    #house{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    #restart, #reset{
+        margin-bottom: 10px;
+    }
+
+    #divBtn{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #restart, #reset{
+        margin: 0 5px;
+        margin-bottom: 10px;
+    }
+
+    #stark , #restart{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #got_logo{
+        width: 380px;
+        margin: 2px 0px;
+        text-align: center;
+    }
+
+    body h2{
+        font-size: 2.6em;
+        padding: 0;
+        margin: 10px;
+        color: #F9F9F8;
+    }
+
+    #house{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    #stark , #restart{
+        margin-bottom: 10px;
+    }
+    
+    #divBtn{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    #restart, #reset{
+        margin: 0 5px;
+        margin-bottom: 10px;
+    }
+
+    #divBtn{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 425px){
+    #got_logo{
+        width: 350px;
+        margin: 0px 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    #got_logo{
+        width: 270px;
+        margin: 0px 0px;
+        text-align: center;
+    }
+
+    .square{
+        width: 85px;
+        height: 85px;
+        background-color: #A09D9B;
+        border: 1px solid #8B0101;
+        border-radius: 10px;
+        margin: 4px 2px;
+    }    
+
+    body h2{
+        font-size: 1.73em;
+        padding: 0;
+        margin: 5px;
+        color: #F9F9F8;
+    }
+
+    #house{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    #restart, #reset{
+        margin-bottom: 10px;
+    }
+
+    #divBtn{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .x::after{
+        content: url("../assets/bolton3.png");
+        font-size: 80px;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        line-height: 100px;
+    }
+
+    .o::after{
+        content: url("../assets/stark2.png");
+        font-size: 75px;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        line-height: 100px;
+    }
+    
+}
