@@ -1,6 +1,6 @@
 <p align="center"><img align="center" src="./assets/got2.png"> <br> <br></p>
 
-<h1 align="center"> Playlist </h1>
+<h1 align="center"> Jogo da Velha (Tic-Tac-Toe) </h1>
 
 <p align="center">
     <a href="#demo"> Demonstração</a> •
