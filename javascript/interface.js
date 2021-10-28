@@ -45,7 +45,7 @@ function handleClick(event) {
       }
 
       setTimeout(() => {
-        alert("A guerra acabou!\n" + "A casa " + playerName + " venceu.");
+        alert("A guerra acabou! \n" + " A casa " + playerName + " venceu.");
       }, 20);
     } else if (player1Name == "" || player2Name == "") {
       if (playerTime == 0) {
@@ -54,7 +54,7 @@ function handleClick(event) {
         playerName = "Bolton";
       }
       setTimeout(() => {
-        alert("A guerra acabou!\n" + "A casa " + playerName + " venceu.");
+        alert("A guerra acabou! \n" + "A casa " + playerName + " venceu.");
       }, 20);
     }
   }
